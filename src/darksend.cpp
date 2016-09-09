@@ -1463,7 +1463,7 @@ bool CDarkSendPool::DoAutomaticDenominating(bool fDryRun, bool ready)
         if(sessionTotalValue > nBalanceNeedsAnonymized) sessionTotalValue = nBalanceNeedsAnonymized;
 
         double fSlingSubmitted = (sessionTotalValue / CENT);
-        printf("Submitting Darksend for %f PTA CENT - sessionTotalValue %d\n", fSlingSubmitted, sessionTotalValue);
+        printf("Submitting Darksend for %f PST CENT - sessionTotalValue %d\n", fSlingSubmitted, sessionTotalValue);
 
         if(pwalletMain->GetDenominatedBalance(true, true) > 0){ //get denominated unconfirmed inputs
             printf("DoAutomaticDenominating -- Found unconfirmed denominated outputs, will wait till they confirm to continue.\n");
