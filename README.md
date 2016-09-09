@@ -33,11 +33,13 @@ POS HiPOS Based On Coinage And Yearly % of 9
 
 ===================
 
-If you get the missing libleledb and libmemenv do this 
+If you get the `missing libleveldb.a and libmemenv.a` do this 
 
 `cd /leveldb`
 
 `chmod +x build_detect_platform`
+
+`make libleveldb.a libmemenv.a`
 
 `cd ..` 
 
