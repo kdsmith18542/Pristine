@@ -31,8 +31,22 @@ POW Block Rewards 50 PST After Block 250
 POS HiPOS Based On Coinage And Yearly % of 9
 
 
+===================
+
+If you get the missing libleledb and libmemenv do this 
+
+`cd /leveldb`
+
+`chmod +x build_detect_platform`
+
+`cd ..` 
+
+`make -f makefile.unix`
 
 
+If you get  this error `fatal error: opening dependency file obj/zerocoin/Accumulator.d: No such file or directory` do this 
+
+`mkdir obj/zerocoin`
 
 
 ===================
